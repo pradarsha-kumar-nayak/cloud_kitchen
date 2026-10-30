@@ -1,0 +1,11 @@
+.outer-con:hover{
+  box-shadow: 2px 2px 2px gray;
+  transition: 1s;
+}
+.vew-details{
+  color:#f6f4f3;
+  background-color:#fc5b00 ;
+  border-radius:40px ;
+  width: 100%;
+}
+
