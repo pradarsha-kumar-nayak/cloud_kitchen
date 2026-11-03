@@ -1,0 +1,146 @@
+
+.hero-banner {
+  position: relative;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  background-image: url('/image/hro-banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+/* halka dark layer taaki white text clear dikhe */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.hero-txt {
+  position: relative;
+  z-index: 1;
+  padding: 60px 0;
+  margin-left: 40px;
+  margin-right: 40px;
+  max-width: 650px;
+}
+
+.top-hed {
+  padding: 5px 14px;
+  color: white;
+  background-color: #fc5b00;
+  display: inline-block;
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+.hero-title {
+  margin: 14px 0 0;
+}
+
+.sec-hed,
+.trd-hed {
+  display: block;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.sec-hed {
+  color: white;
+}
+
+.trd-hed {
+  color: #fc5b00;
+}
+
+.for-hed {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.hero-btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.ord {
+  background-color: #fc5b00;
+  border-radius: 30px;
+  padding-bottom: 8px;
+  color: white;
+}
+
+.ord:hover {
+  background-color: #e05200;
+  color: white;
+}
+
+.vew {
+  border-radius: 30px;
+  background: rgba(224, 221, 221, 0.2);
+  padding-bottom: 8px;
+  color: white;
+}
+
+.vew:hover {
+  background: rgba(224, 221, 221, 0.35);
+  color: white;
+}
+
+/* ---------- Tablet ---------- */
+@media (max-width: 992px) {
+  .hero-banner {
+    min-height: 460px;
+  }
+
+  .sec-hed,
+  .trd-hed {
+    font-size: 46px;
+  }
+
+  .for-hed {
+    font-size: 18px;
+  }
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 576px) {
+  .hero-banner {
+    min-height: 420px;
+    background-position: center;
+  }
+
+  /* mobile pe thoda zyada dark taaki text padhna easy ho */
+  .hero-overlay {
+    background: rgba(0, 0, 0, 0.45);
+  }
+
+  .hero-txt {
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 40px 0;
+  }
+
+  .top-hed {
+    font-size: 12px;
+  }
+
+  .sec-hed,
+  .trd-hed {
+    font-size: 32px;
+  }
+
+  .for-hed {
+    font-size: 15px;
+  }
+
+  .ord,
+  .vew {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}

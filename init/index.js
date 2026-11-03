@@ -1,5 +1,5 @@
 const mongoose=require("mongoose");
-const Item=require("../models/items");
+const Item=require("../models/items.js");
 const nordatamod=require("../models/normal-menu.js");
 const spcdatamod=require("../models/special-menu.js");
 const spcdata=require("./specialdata.js");

@@ -1,0 +1,86 @@
+
+.footer-img-wrap {
+  margin: 0 120px;
+}
+
+.footer-img {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  background-image: url("/image/kitchen.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.footer-img-txt {
+  padding: 60px 50px;
+}
+
+.footer-img-title {
+  color: white;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 1.2;
+  opacity: 0.8;
+  max-width: 500px;
+}
+
+/* desktop pe 3 line ka wahi look: Join the / OurKitchen / Revolution. */
+.footer-img-title span {
+  display: block;
+}
+
+.footer-img-sub {
+  color: white;
+  margin-top: 8px;
+  font-size: 18px;
+  max-width: 480px;
+}
+
+/* ---------- Tablet ---------- */
+@media (max-width: 992px) {
+  .footer-img-wrap {
+    margin: 0 40px;
+  }
+
+  .footer-img {
+    min-height: 420px;
+    border-radius: 30px;
+  }
+
+  .footer-img-txt {
+    padding: 50px 36px;
+  }
+
+  .footer-img-title {
+    font-size: 42px;
+  }
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 576px) {
+  .footer-img-wrap {
+    margin: 0 16px;
+  }
+
+  .footer-img {
+    min-height: 320px;
+    border-radius: 20px;
+  }
+
+  .footer-img-txt {
+    padding: 32px 20px;
+  }
+
+  .footer-img-title {
+    font-size: 30px;
+    opacity: 0.9;
+  }
+
+  .footer-img-sub {
+    font-size: 14px;
+  }
+}
